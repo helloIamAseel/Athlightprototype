@@ -210,7 +210,6 @@ export function EditProfileModal({ onClose }: EditProfileModalProps) {
                       <SelectContent>
                         <SelectItem value="male">Male</SelectItem>
                         <SelectItem value="female">Female</SelectItem>
-                        <SelectItem value="other">Other</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
@@ -241,9 +240,6 @@ export function EditProfileModal({ onClose }: EditProfileModalProps) {
                         <SelectItem value="Padel">Padel</SelectItem>
                         <SelectItem value="Swimming">Swimming</SelectItem>
                         <SelectItem value="Running">Running</SelectItem>
-                        <SelectItem value="Basketball">Basketball</SelectItem>
-                        <SelectItem value="Tennis">Tennis</SelectItem>
-                        <SelectItem value="Volleyball">Volleyball</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
